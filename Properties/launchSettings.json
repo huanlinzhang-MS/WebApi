@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:57020",
+      "sslPort": 44385
+    }
+  },
+  "profiles": {
+    "WebApi": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7260;http://localhost:5260",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "VaultUri": "https://huanlin.vault.azure.net/",
+        "AZURE_USERNAME": "zhanghhll.163@qq.com"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "VaultUri": "https://huanlin.vault.azure.net/",
+        "AZURE_USERNAME": "zhanghhll.163@qq.com"
+      }
+    }
+  }
+}
